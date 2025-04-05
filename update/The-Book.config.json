@@ -1,16 +1,35 @@
 {
-    "SystemInfo":  {
-                       "IncludeInstalledApps":  true,
-                       "CollectDetailedInfo":  true,
-                       "IncludeNetworkInfo":  true
-                   },
-    "UI":  {
-               "UseColors":  true,
-               "ShowBanner":  true
-           },
-    "Logging":  {
-                    "MaxLogFiles":  10,
-                    "LogLevel":  "Information",
-                    "MaxLogSize":  5242880
-                }
-}
+    "Logging": {
+        "MaxLogSize": 5242880,
+        "MaxLogFiles": 10,
+        "LogLevel": "Information"
+    },
+    "SystemInfo": {
+        "CollectDetailedInfo": true,
+        "IncludeNetworkInfo": true,
+        "IncludeInstalledApps": true
+    },
+    "UI": {
+        "ShowBanner": true,
+        "UseColors": true
+    },
+    "Network": {
+        "DefaultDNSServers": [
+            "8.8.8.8",
+            "8.8.4.4"
+        ],
+        "NTP_Servers": [
+            "time.windows.com",
+            "time.nist.gov"
+        ]
+    },
+    "Diagnostics": {
+        "CheckSystemFiles": true,
+        "CheckDiskHealth": true,
+        "CheckMemory": true
+    },
+    "Security": {
+        "RequireAdmin": true,
+        "LogSensitiveInfo": false
+    }
+} 

@@ -1,0 +1,16 @@
+{
+    "SystemInfo":  {
+                       "IncludeInstalledApps":  true,
+                       "CollectDetailedInfo":  true,
+                       "IncludeNetworkInfo":  true
+                   },
+    "UI":  {
+               "UseColors":  true,
+               "ShowBanner":  true
+           },
+    "Logging":  {
+                    "MaxLogFiles":  10,
+                    "LogLevel":  "Information",
+                    "MaxLogSize":  5242880
+                }
+}
